@@ -2,9 +2,9 @@
 	"name": "V2EX auto sign",
 	"script": "dist/server.js",
 	"cwd": "/opt/web/tasks/v2ex_sign",
-	"error_file": "err.log",
-	"out_file": "out.log",
-	"pid_file": "app.pid",
+	"error_file": "logs/err.log",
+	"out_file": "logs/out.log",
+	"pid_file": "logs/app.pid",
 	"one_launch_only": "true",
 	"env": {
 		"DEBUG": "v2ex:debug,v2ex:error,task:info,task:error,server:error,server:info,-not_this"
