@@ -1,0 +1,12 @@
+[{
+	"name": "V2EX auto sign",
+	"script": "dist/server.js",
+	"cwd": "/opt/web/tasks/AutoSign",
+	"error_file": "err.log",
+	"out_file": "out.log",
+	"pid_file": "app.pid",
+	"one_launch_only": "true",
+	"env": {
+		"DEBUG": "v2ex:debug,v2ex:error,task:info,task:error,server:error,server:info,-not_this"
+	}
+}]

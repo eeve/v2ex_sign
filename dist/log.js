@@ -1,0 +1,1 @@
+"use strict";var debug=require("debug"),logTypes=["http","dom","debug","info","error"];module.exports=function(e){var r={};return e=e||"",logTypes.forEach(function(o){r[o]=debug(e+":"+o)}),r};

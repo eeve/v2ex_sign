@@ -1,0 +1,1 @@
+"use strict";module.exports={url:"https://www.xxx.com",noticeEmail:"xxx@163.com",email:{host:"smtp.gmail.com",port:465,secure:!0,auth:{user:"xxx@gmail.com",pass:"xxx"}},v2ex:{user:"xxx",pass:"xxx"}};

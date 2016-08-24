@@ -1,0 +1,21 @@
+{
+	"scripts": {
+		"start": "DEBUG=v2ex:debug,v2ex:error,task:info,task:error,server:error,server:info,-not_this node ./dist/server.js",
+		"build": "gulp",
+		"watch": "gulp watch"
+	},
+	"devDependencies": {
+		"babel-preset-es2015": "^6.13.2",
+		"bluebird": "^3.4.1",
+		"cheerio": "^0.20.0",
+		"debug": "^2.2.0",
+		"email-sender": "^1.0.4",
+		"gulp": "^3.9.1",
+		"gulp-babel": "^6.1.2",
+		"gulp-uglify": "^2.0.0",
+		"gulp-util": "^3.0.7",
+		"lodash": "^4.14.2",
+		"node-schedule": "^1.1.1",
+		"request": "^2.74.0"
+	}
+}
