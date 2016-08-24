@@ -11,7 +11,7 @@ const sender = new EmailSender(conf.email);
 function sendEmail(result) {
 	const opt = result.error ? {
 		subject: '你的V2EX签到任务失败了',
-		text: `
+		html: `
 		<html>
 			<body>
 				<p>任务失败\n\n${result.msg}</p>
