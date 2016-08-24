@@ -1,7 +1,7 @@
 [{
 	"name": "V2EX auto sign",
 	"script": "dist/server.js",
-	"cwd": "/opt/web/tasks/AutoSign",
+	"cwd": "/opt/web/tasks/v2ex_sign",
 	"error_file": "err.log",
 	"out_file": "out.log",
 	"pid_file": "app.pid",
